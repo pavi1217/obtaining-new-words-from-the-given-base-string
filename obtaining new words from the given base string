@@ -1,0 +1,8 @@
+t=int(input())
+for _ in range(t):
+  a,b=input().split()
+  r=""
+  for i in b:
+    if i not in a:
+      r=r+i 
+  print(r)
